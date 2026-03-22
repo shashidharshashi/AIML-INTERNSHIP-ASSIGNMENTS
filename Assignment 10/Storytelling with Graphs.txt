@@ -1,0 +1,25 @@
+#Create bar chart, pie chart, histogram and write a short data story explaining trends.
+import matplotlib.pyplot as plt
+
+# Sample dataset: marks of students
+students = ["Alice", "Bob", "Charlie", "David", "Eva"]
+marks = [85, 92, 76, 59, 47]
+
+# Bar Chart
+plt.bar(students, marks)
+plt.title("Student Marks - Bar Chart")
+plt.xlabel("Students")
+plt.ylabel("Marks")
+plt.show()
+
+# Pie Chart
+plt.pie(marks, labels=students, autopct='%1.1f%%')
+plt.title("Marks Distribution - Pie Chart")
+plt.show()
+
+# Histogram
+plt.hist(marks, bins=5, color='skyblue', edgecolor='black')
+plt.title("Marks Distribution - Histogram")
+plt.xlabel("Marks Range")
+plt.ylabel("Frequency")
+plt.show()

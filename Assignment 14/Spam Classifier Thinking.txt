@@ -1,0 +1,35 @@
+#Design a spam detection system: features, data needed, possible mistakes.
+
+Design Explanation:
+
+1. Features for Spam Detection
+
+Presence of suspicious keywords (e.g., “free,” “win,” “urgent”).
+
+Frequency of links or attachments.
+
+Sender reputation (email domain, IP address).
+
+Message length and unusual formatting (excessive capital letters, symbols).
+
+Historical behavior (previous spam reports).
+
+2. Data Needed
+
+Labeled dataset of emails marked as “spam” or “not spam.”
+
+Metadata such as sender info, subject lines, and timestamps.
+
+Content features like word frequency, n‑grams, and HTML tags.
+
+User feedback data (reports of spam).
+
+3. Possible Mistakes (Challenges)
+
+False Positives: Legitimate emails incorrectly marked as spam (e.g., promotional offers from trusted sources).
+
+False Negatives: Spam emails slipping through undetected.
+
+Bias in Training Data: If dataset is not diverse, classifier may fail on new spam patterns.
+
+Overfitting: Model may learn specific spam examples but fail to generalize.

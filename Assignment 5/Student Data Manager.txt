@@ -1,0 +1,34 @@
+# Student Data Manager - Part 2
+
+def assign_grade(marks):
+    if marks >= 90:
+        return "A"
+    elif marks >= 75:
+        return "B"
+    elif marks >= 60:
+        return "C"
+    elif marks >= 40:
+        return "D"
+    else:
+        return "F"
+
+students = {
+    "Alice": 85,
+    "Bob": 92,
+    "Charlie": 76,
+    "David": 59,
+    "Eva": 47
+}
+
+# Find topper
+topper = max(students, key=students.get)
+
+# Calculate average
+average = sum(students.values()) / len(students)
+
+print("Class Average:", average)
+print("Topper:", topper, "with", students[topper], "marks")
+
+print("\nGrades:")
+for name, marks in students.items():
+    print(f"{name}: {marks} -> Grade {assign_grade(marks)}")

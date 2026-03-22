@@ -1,0 +1,19 @@
+#Draw a decision tree predicting whether you should play outside.
+
+Theory (Decision Tree Example):
+
+Root Node: Weather condition
+
+Sunny → Check temperature
+
+If temperature is moderate → Play outside
+
+If temperature is too hot → Stay inside
+
+Rainy → Stay inside
+
+Cloudy → Check health
+
+If feeling well → Play outside
+
+If not feeling well → Stay inside

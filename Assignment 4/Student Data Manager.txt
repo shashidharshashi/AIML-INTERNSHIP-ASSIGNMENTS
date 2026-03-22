@@ -1,0 +1,25 @@
+# Student Data Manager - Part 1
+
+def assign_grade(marks):
+    if marks >= 90:
+        return "A"
+    elif marks >= 75:
+        return "B"
+    elif marks >= 60:
+        return "C"
+    elif marks >= 40:
+        return "D"
+    else:
+        return "F"
+
+students = {
+    "Alice": 85,
+    "Bob": 92,
+    "Charlie": 76,
+    "David": 59,
+    "Eva": 47
+}
+
+print("Grades:")
+for name, marks in students.items():
+    print(f"{name}: {marks} -> Grade {assign_grade(marks)}")

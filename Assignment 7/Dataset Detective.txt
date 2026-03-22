@@ -1,0 +1,25 @@
+#Load a dataset, display top rows, find highest value column, count missing values, share 5 insights.
+import pandas as pd
+
+# Load dataset (example: CSV file)
+data = pd.read_csv("sample_dataset.csv")
+
+# Display top rows
+print("Top 5 rows:")
+print(data.head())
+
+# Find column with highest value
+highest_col = data.max().idxmax()
+print("\nColumn with highest value:", highest_col)
+
+# Count missing values
+print("\nMissing values per column:")
+print(data.isnull().sum())
+
+# Generate insights
+print("\nInsights:")
+print("1. Dataset has", data.shape[0], "rows and", data.shape[1], "columns.")
+print("2. Highest value found in column:", highest_col)
+print("3. Total missing values:", data.isnull().sum().sum())
+print("4. Numeric columns summary:\n", data.describe())
+print("5. Categorical columns summary:\n", data.select_dtypes(include='object').nunique())

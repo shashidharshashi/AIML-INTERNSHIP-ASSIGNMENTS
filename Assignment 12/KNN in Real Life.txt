@@ -1,0 +1,22 @@
+#Explain Netflix-like recommendations using KNN and create a small similarity example.
+
+from sklearn.neighbors import NearestNeighbors
+import numpy as np
+
+# Example dataset: users and their ratings for 3 movies
+# Rows = users, Columns = movie ratings
+ratings = np.array([
+    [5, 4, 0],   # User A
+    [4, 5, 0],   # User B
+    [1, 1, 5],   # User C
+    [0, 2, 4]    # User D
+])
+
+# Fit KNN model
+model = NearestNeighbors(n_neighbors=2, metric='euclidean')
+model.fit(ratings)
+
+# Find neighbors for User A
+distances, indices = model.kneighbors([ratings[0]])
+print("Nearest neighbors for User A:", indices)
+

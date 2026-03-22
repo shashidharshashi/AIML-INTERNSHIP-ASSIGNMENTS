@@ -1,0 +1,27 @@
+#Suggest ML problems in college, healthcare, shopping and describe input → output.
+
+Code / Ideas Implemented:
+
+1. College Domain
+
+Problem: Predict student performance.
+
+Input: Study hours, attendance, assignment scores.
+
+Output: Predicted exam marks or pass/fail status.
+
+2. Healthcare Domain
+
+Problem: Disease prediction.
+
+Input: Patient symptoms, medical history, test results.
+
+Output: Probability of having a particular disease (e.g., diabetes).
+
+3. Shopping Domain
+
+Problem: Recommendation system.
+
+Input: Customer purchase history, browsing behavior, product ratings.
+
+Output: Personalized product recommendations.

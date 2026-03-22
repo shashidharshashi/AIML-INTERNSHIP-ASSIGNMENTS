@@ -1,0 +1,22 @@
+#Clean a dataset by handling missing values, removing duplicates, standardizing text, and explain why cleaning matters.
+import pandas as pd
+
+# Load dataset (example CSV)
+data = pd.read_csv("raw_dataset.csv")
+
+# Handle missing values
+data = data.fillna(method='ffill')   # forward fill as example
+
+# Remove duplicates
+data = data.drop_duplicates()
+
+# Standardize text (convert to lowercase)
+data['Name'] = data['Name'].str.lower()
+
+# Display cleaned dataset
+print("Cleaned Dataset:")
+print(data.head())
+
+# Count missing values after cleaning
+print("\nMissing values per column:")
+print(data.isnull().sum())

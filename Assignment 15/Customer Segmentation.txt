@@ -1,0 +1,30 @@
+#Perform K-Means clustering on a mall dataset and describe customer groups.
+
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans
+
+# Sample mall dataset
+data = {
+    "CustomerID": [1, 2, 3, 4, 5, 6],
+    "AnnualIncome": [15, 16, 17, 35, 40, 70],
+    "SpendingScore": [39, 81, 6, 77, 40, 76]
+}
+
+df = pd.DataFrame(data)
+
+# Select features
+X = df[["AnnualIncome", "SpendingScore"]]
+
+# Apply K-Means clustering
+kmeans = KMeans(n_clusters=3, random_state=42)
+df["Cluster"] = kmeans.fit_predict(X)
+
+print(df)
+
+# Visualize clusters
+plt.scatter(df["AnnualIncome"], df["SpendingScore"], c=df["Cluster"], cmap="rainbow")
+plt.xlabel("Annual Income (k$)")
+plt.ylabel("Spending Score")
+plt.title("Customer Segmentation using K-Means")
+plt.show()
