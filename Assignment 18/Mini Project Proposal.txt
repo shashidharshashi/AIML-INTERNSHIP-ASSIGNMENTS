@@ -1,0 +1,40 @@
+#Submit a 1-page proposal with problem, dataset, algorithm, expected output.
+
+Proposal Draft:
+
+1. Problem Statement  
+Predict student performance based on study habits and attendance. The goal is to help colleges identify students at risk and provide timely support.
+
+2. Dataset
+
+Features: Study hours per week, attendance percentage, assignment scores, participation in activities.
+
+Label: Final exam marks or pass/fail status.
+
+Source: Synthetic dataset created for project or real student records (if available).
+
+3. Algorithm
+
+Linear Regression (for predicting marks).
+
+Logistic Regression / Decision Tree (for predicting pass/fail).
+
+K‑Fold cross validation to ensure accuracy.
+
+4. Expected Output
+
+A trained model that predicts exam marks based on input features.
+
+Classification of students into “At Risk” vs “Safe” categories.
+
+Insights into which factors (study hours, attendance, assignments) most strongly influence performance.
+
+Activity:
+
+Framed a real‑world problem suitable for ML.
+
+Identified dataset features and labels.
+
+Selected algorithms appropriate for regression and classification.
+
+Defined expected outcomes clearly.

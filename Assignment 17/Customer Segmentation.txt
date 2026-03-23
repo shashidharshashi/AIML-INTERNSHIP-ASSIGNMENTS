@@ -1,0 +1,32 @@
+#Perform K-Means clustering on a mall dataset and describe customer groups.
+
+Description:  
+The task was to perform K‑Means clustering on a mall dataset and describe customer groups based on their income and spending behavior.
+
+Theory + Example Explanation:
+
+Step 1: Select features such as Annual Income and Spending Score.
+
+Step 2: Apply K‑Means clustering to group customers into segments.
+
+Step 3: Visualize clusters to interpret customer categories.
+
+Typical Customer Groups Identified:
+
+Low Income, Low Spending: Budget‑conscious customers who rarely spend.
+
+High Income, High Spending: Premium customers who are valuable for luxury marketing.
+
+Moderate Income, Variable Spending: Middle‑segment customers with mixed buying behavior.
+
+High Income, Low Spending: Customers with potential but low engagement.
+
+Low Income, High Spending: Customers who spend more despite limited income.
+
+Activity:
+
+Applied clustering on mall dataset features.
+
+Segmented customers into groups based on similarity.
+
+Interpreted results to understand business implications.

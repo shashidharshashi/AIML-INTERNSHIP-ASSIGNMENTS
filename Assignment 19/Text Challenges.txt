@@ -1,0 +1,69 @@
+#Collect 20 messy sentences and identify slang, emojis, typos; explain preprocessing needed.
+
+Examples of Messy Sentences:
+
+“OMG that movie was lit 🔥🔥” → slang + emoji
+
+“Thx brooo, u r gr8” → slang + typo
+
+“I’ll c u l8r” → shorthand slang
+
+“Wht r u doin???” → typo + punctuation noise
+
+“😂😂😂 can’t stop laughing” → emoji repetition
+
+“Pls send me d doc asap” → slang + abbreviation
+
+“This is soooo cooolllll” → elongated words
+
+“IDK what’s happening rn” → slang + abbreviation
+
+“Gr8 job dude 👍” → slang + emoji
+
+“Hellooo, r u thr??” → typo + informal spelling
+
+“Yessss I’m in!!!” → elongated words + punctuation
+
+“Bruh that’s insane 🤯” → slang + emoji
+
+“U hv to chk it out” → shorthand slang
+
+“Lolololol stopppp” → slang + elongated words
+
+“Wanna go 2 mall?” → numeric shorthand
+
+“Hahaha 😂😂😂” → emoji + repetition
+
+“Gud mrng frnd” → typo + informal spelling
+
+“Nooo wayyy mannn” → elongated words
+
+“Tbh idc abt it” → slang + abbreviation
+
+“Okie dokieee 😅” → informal spelling + emoji
+
+Preprocessing Needed:
+
+Lowercasing: Convert all text to lowercase for consistency.
+
+Removing emojis: Strip emojis or convert them into textual meaning if needed.
+
+Correcting typos: Use spell‑check or normalization.
+
+Expanding slang/abbreviations: Map “u” → “you,” “idk” → “I don’t know.”
+
+Removing elongated words: Normalize “soooo” → “so.”
+
+Removing punctuation noise: Limit repeated symbols like “???” or “!!!.”
+
+Tokenization: Split sentences into meaningful words.
+
+Stopword removal: Eliminate common filler words if not useful.
+
+Activity:
+
+Collected 20 messy sentences with slang, emojis, and typos.
+
+Identified different types of noise in text.
+
+Suggested preprocessing steps to clean text for NLP tasks.
