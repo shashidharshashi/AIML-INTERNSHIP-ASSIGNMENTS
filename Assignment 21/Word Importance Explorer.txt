@@ -1,0 +1,34 @@
+#Use TF-IDF on 5 documents and identify top keywords with explanation.
+
+Description:  
+The task was to apply TF‑IDF (Term Frequency – Inverse Document Frequency) on 5 documents and identify the top keywords, then explain their importance.
+
+Activity:
+
+Collected 5 sample documents (short articles or text passages).
+
+Applied TF‑IDF to compute word importance.
+
+Extracted top keywords from each document.
+
+Explained why those words are significant.
+
+Example (Conceptual):
+
+Document 1 (Sports): Keywords → “match,” “goal,” “team.”
+
+Document 2 (Technology): Keywords → “AI,” “data,” “model.”
+
+Document 3 (Health): Keywords → “exercise,” “diet,” “patient.”
+
+Document 4 (Shopping): Keywords → “discount,” “offer,” “customer.”
+
+Document 5 (Education): Keywords → “student,” “exam,” “learning.”
+
+Explanation:
+
+TF‑IDF increases the importance of words that occur frequently in one document but rarely across others.
+
+For example, “goal” is common in sports but rare in other domains, so it becomes a strong keyword.
+
+This helps identify the unique theme of each document.

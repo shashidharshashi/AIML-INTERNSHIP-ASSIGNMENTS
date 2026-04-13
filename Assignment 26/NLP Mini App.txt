@@ -1,0 +1,32 @@
+Description:  
+The task was to design a small NLP application such as a chatbot, fake news detector, or keyword extractor.
+
+Activity:
+
+Explored three possible mini‑apps:
+
+Chatbot: Simulates conversation by recognizing user intent and generating responses.
+
+Fake News Detector: Classifies text as reliable or misleading using machine learning.
+
+Keyword Extractor: Identifies important terms in documents using TF‑IDF or other methods.
+
+Selected one prototype idea and explained its workflow conceptually.
+
+Tested the design with sample inputs to check feasibility.
+
+Learnings:
+
+Understood how NLP techniques can be applied to real‑world problems.
+
+Learned the difference between classification (fake news), extraction (keywords), and generation (chatbot).
+
+Gained clarity on the importance of preprocessing (tokenization, stopword removal).
+
+Blockers / Risks:
+
+Small datasets reduce accuracy in fake news detection.
+
+Chatbots require large training data for natural responses.
+
+Keyword extraction may miss context‑dependent terms.

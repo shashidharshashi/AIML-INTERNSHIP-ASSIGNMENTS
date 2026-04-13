@@ -1,0 +1,40 @@
+Description:  
+The task was to use OpenCV to apply basic image filters such as grayscale conversion, blurring, and edge detection, then compare the before/after results.
+
+Activity:
+
+Loaded a sample image using OpenCV.
+
+Converted the image to grayscale (single channel intensity values).
+
+Applied blur filters (Gaussian blur) to reduce noise and smooth the image.
+
+Used edge detection (Canny filter) to highlight boundaries and shapes.
+
+Compared the original image with the processed versions.
+
+Conceptual Example:
+
+Original Image: Full‑color RGB image.
+
+Grayscale: Simplified version with shades of gray.
+
+Blurred: Smoothened image with reduced sharpness.
+
+Edges: Only outlines and boundaries visible.
+
+Learnings:
+
+Grayscale reduces complexity by removing color information.
+
+Blurring helps in noise reduction and preprocessing for vision tasks.
+
+Edge detection is crucial for object recognition and segmentation.
+
+Blockers / Risks:
+
+Over‑blurring may remove important details.
+
+Edge detection parameters must be tuned carefully.
+
+Different image formats may affect filter performance.

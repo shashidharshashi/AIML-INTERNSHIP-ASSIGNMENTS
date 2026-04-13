@@ -1,0 +1,48 @@
+Description:  
+The task was to list 5 uses of face/object detection and design one solution conceptually.
+
+Activity:
+
+Brainstormed practical applications of detection systems.
+
+Selected one use case and designed a simple solution workflow.
+
+Five Uses of Face/Object Detection:
+
+Security & Surveillance: Detect suspicious activity in public spaces.
+
+Attendance Systems: Face recognition for automated student/employee attendance.
+
+Healthcare: Detect medical anomalies in scans (e.g., tumors).
+
+Retail: Track customer movement and product interaction.
+
+Smart Devices: Unlock phones/laptops using face recognition.
+
+Designed Solution (Example – Attendance System):
+
+Step 1: Camera captures student faces at entry.
+
+Step 2: Detection model identifies faces.
+
+Step 3: Recognition system matches faces with database.
+
+Step 4: Attendance is automatically marked in records.
+
+Step 5: Reports generated for teachers/admins.
+
+Learnings:
+
+Detection systems are versatile across industries.
+
+Accuracy depends on dataset quality and environmental conditions.
+
+Combining detection with recognition adds real value.
+
+Blockers / Risks:
+
+Privacy concerns in surveillance and attendance.
+
+False positives/negatives in detection.
+
+High computational cost for real‑time systems.

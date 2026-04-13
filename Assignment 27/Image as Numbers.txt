@@ -1,0 +1,44 @@
+Description:  
+The task was to load an image, print its shape, pixel values, and channels, then explain them conceptually.
+
+Activity:
+
+Selected a sample image.
+
+Observed its shape (height × width × channels).
+
+Examined pixel values (numerical intensity values).
+
+Identified channels (e.g., RGB → Red, Green, Blue).
+
+Explained how images are represented as numerical arrays.
+
+Conceptual Example:
+
+Shape: (256, 256, 3) → 256 pixels height, 256 pixels width, 3 channels.
+
+Pixel values: Each pixel has values like [120, 200, 150] representing RGB intensities.
+
+Channels:
+
+Red channel → intensity of red color.
+
+Green channel → intensity of green color.
+
+Blue channel → intensity of blue color.
+
+Learnings:
+
+Images are stored as numerical arrays where each pixel is represented by numbers.
+
+The number of channels depends on the image type (RGB = 3, Grayscale = 1).
+
+Pixel values usually range from 0–255 for 8‑bit images.
+
+Blockers / Risks:
+
+Large images consume more memory.
+
+Different formats (JPEG, PNG) may store data differently.
+
+Preprocessing is required before feeding images into ML/DL models.

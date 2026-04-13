@@ -1,0 +1,22 @@
+Description:  
+The task was to find 5 word pairs and explain their semantic similarity—how closely related their meanings are.
+
+Activity:
+
+Selected 5 word pairs.
+
+Compared their meanings and contexts.
+
+Explained similarities and differences.
+
+Examples of Word Pairs:
+
+King – Queen → High similarity (both royalty), difference in gender.
+
+Car – Bus → Both vehicles for transport, differ in size and capacity.
+
+Dog – Cat → Both pets, differ in species and behavior.
+
+Pen – Pencil → Both writing tools, differ in material and permanence.
+
+Apple – Mango → Both fruits, differ in taste and appearance.

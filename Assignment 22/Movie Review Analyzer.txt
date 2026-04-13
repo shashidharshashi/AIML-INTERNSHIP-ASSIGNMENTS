@@ -1,0 +1,26 @@
+#Build a simple sentiment analyzer and test on 5 reviews.
+
+Description:  
+The task was to build a simple sentiment analyzer and test it on 5 movie reviews.
+
+Activity:
+
+Collected 5 sample reviews (mix of positive and negative).
+
+Preprocessed text (lowercasing, punctuation removal, stopword removal).
+
+Applied a basic sentiment scoring method (positive vs negative words).
+
+Classified each review as positive or negative.
+
+Example Results (Conceptual):
+
+Review 1: “Amazing storyline and acting!” → Positive
+
+Review 2: “Too slow and boring.” → Negative
+
+Review 3: “Loved the visuals, but weak plot.” → Mixed/Negative
+
+Review 4: “Best movie of the year!” → Positive
+
+Review 5: “Not worth the ticket price.” → Negative

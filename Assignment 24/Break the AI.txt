@@ -1,0 +1,22 @@
+Description:  
+The task was to try confusing a Large Language Model (LLM) with tricky prompts and document the results.
+
+Activity:
+
+Designed prompts with ambiguity, contradictions, and nonsense.
+
+Tested how the LLM responded to unclear or conflicting instructions.
+
+Recorded observations of strengths and weaknesses.
+
+Examples of Tricky Prompts & Results:
+
+Ambiguous Prompt: “Tell me about the thing.” → AI asked for clarification.
+
+Contradictory Prompt: “Write a sentence that is both true and false.” → AI struggled, produced paradoxical responses.
+
+Nonsense Prompt: “Explain why purple tastes faster than happiness.” → AI generated creative but meaningless text.
+
+Overloaded Prompt: “Summarize a book, write a poem, and solve math in one line.” → AI attempted but output was incomplete.
+
+Sarcasm Prompt: “Wow, that movie was so great (it was terrible).” → AI misclassified sentiment.

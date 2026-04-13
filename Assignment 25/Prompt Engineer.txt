@@ -1,0 +1,30 @@
+Description:  
+The task was to write prompts for a resume, business idea, and study plan, then compare weak vs strong prompts to observe differences in AI responses.
+
+Activity:
+
+Designed weak prompts (short, vague, lacking detail).
+
+Designed strong prompts (clear, specific, structured).
+
+Tested both sets of prompts and compared outputs.
+
+Examples:
+
+Resume Prompt
+
+Weak: “Write a resume.” → Output: Generic, incomplete.
+
+Strong: “Write a professional resume for a Computer Science graduate with skills in Python, ML, and internships at IT companies.” → Output: Detailed, tailored resume.
+
+Business Idea Prompt
+
+Weak: “Give me a business idea.” → Output: Random, broad suggestion.
+
+Strong: “Suggest a scalable business idea in EdTech for Indian college students, focusing on affordable online learning tools.” → Output: Specific, practical idea.
+
+Study Plan Prompt
+
+Weak: “Make a study plan.” → Output: Basic schedule.
+
+Strong: “Create a 4‑week study plan for Data Science, including daily topics, practice exercises, and weekend revision.” → Output: Structured, actionable plan.
